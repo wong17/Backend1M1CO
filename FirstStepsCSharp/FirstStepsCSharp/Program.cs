@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
 using FirstStepsCSharp.Basic.BasicCSharp;
-using FirstStepsCSharp.Basic.DataTypes;
+using FirstStepsCSharp.POO.ClassesAndObjects;
+using FirstStepsCSharp.POO.Encapsulation.AccessModifiers;
+using FirstStepsCSharp.POO.Encapsulation.GettersAndSetters;
 
 /* -------------------- COMENTA/REMUEVE COMENTARIO PARA EJECUTAR EL EJEMPLO DESEADO. -------------------- */
 
@@ -45,3 +48,22 @@ ForLoop.Main(args);
 
 // Invocamos el método main de la clase ArraysDemo
 ArraysDemo.Main(args);
+
+// Invocamos el método main de la clase FunctionsWithOptionalParameters
+FunctionsWithOptionalParameters.Main(args);
+
+// Invocamos el método main de la clase StringInterpolation
+StringInterpolation.Main(args);
+
+/* ---------------------------------------- EJEMPLOS DE POO. ---------------------------------------- */
+
+Console.WriteLine("\n---------------------------------------- POO ----------------------------------------\n");
+
+// Invocamos el método main de la clase Student del paquete POO.ClassesAndObjects
+Student.Main(args);
+
+// Invocamos el método main de la clase PersonMain del paquete POO.Encapsulation.AccessModifiers
+PersonMain.Main(args);
+
+// Invocamos el método main de la clase PersonGetterSetterMain del paquete POO.Encapsulation.GettersAndSetters
+PersonGetterSetterMain.Main(args);

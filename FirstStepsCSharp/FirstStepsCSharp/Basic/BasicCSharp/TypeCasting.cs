@@ -1,4 +1,4 @@
-﻿namespace FirstStepsCSharp.Basic.DataTypes
+﻿namespace FirstStepsCSharp.Basic.BasicCSharp
 {
     public class TypeCasting
     {
