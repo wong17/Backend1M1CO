@@ -12,15 +12,15 @@
     "Carrera": "Ingenier\u00EDa en computaci\u00F3n"
   },
   {
-    "Id": 3,
-    "Nombre": "string",
-    "Carnet": "string",
-    "Carrera": "string"
-  },
-  {
     "Id": 4,
     "Nombre": "Fran",
     "Carnet": "2017-0918U",
     "Carrera": "Ingenier\u00EDa civil"
+  },
+  {
+    "Id": 5,
+    "Nombre": "Pedro",
+    "Carnet": "Arquitectura",
+    "Carrera": "2016-1245U"
   }
 ]
