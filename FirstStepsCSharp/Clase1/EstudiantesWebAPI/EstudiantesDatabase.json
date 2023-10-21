@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "Nombre": "Wong",
+    "Carnet": "1986-0426U",
+    "Carrera": "Ingenier\u00EDa en Turbo C"
+  },
+  {
+    "Id": 2,
+    "Nombre": "Gabriel",
+    "Carnet": "2001-1290U",
+    "Carrera": "Ingenier\u00EDa en computaci\u00F3n"
+  },
+  {
+    "Id": 3,
+    "Nombre": "string",
+    "Carnet": "string",
+    "Carrera": "string"
+  },
+  {
+    "Id": 4,
+    "Nombre": "Fran",
+    "Carnet": "2017-0918U",
+    "Carrera": "Ingenier\u00EDa civil"
+  }
+]
