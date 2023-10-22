@@ -1,4 +1,4 @@
-using EstudiantesWebAPI.Bll.Configurations;
+using Estudiantes.Bll.Configurations;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);

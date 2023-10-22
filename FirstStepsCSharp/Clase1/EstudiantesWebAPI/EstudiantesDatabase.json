@@ -12,15 +12,171 @@
     "Carrera": "Ingenier\u00EDa en computaci\u00F3n"
   },
   {
-    "Id": 4,
+    "Id": 3,
     "Nombre": "Fran",
     "Carnet": "2017-0918U",
     "Carrera": "Ingenier\u00EDa civil"
   },
   {
-    "Id": 5,
+    "Id": 4,
     "Nombre": "Pedro",
-    "Carnet": "Arquitectura",
-    "Carrera": "2016-1245U"
+    "Carnet": "2016-1245U",
+    "Carrera": "Arquitectura"
+  },
+  {
+    "Id": 5,
+    "Nombre": "Maria",
+    "Carnet": "1988-0426U",
+    "Carrera": "Ingenier\u00EDa en sistemas"
+  },
+  {
+    "Id": 6,
+    "Nombre": "Patricia",
+    "Carnet": "2004-1290U",
+    "Carrera": "Ingenier\u00EDa en computaci\u00F3n"
+  },
+  {
+    "Id": 7,
+    "Nombre": "Kakaroto",
+    "Carnet": "2012-0918U",
+    "Carrera": "Ingenier\u00EDa agricola"
+  },
+  {
+    "Id": 8,
+    "Nombre": "Alex",
+    "Carnet": "2010-1245U",
+    "Carrera": "Administraci\u00F3n de empresas"
+  },
+  {
+    "Id": 9,
+    "Nombre": "Felipe",
+    "Carnet": "1996-0426U",
+    "Carrera": "Ingles"
+  },
+  {
+    "Id": 10,
+    "Nombre": "Diego",
+    "Carnet": "1986-0426U",
+    "Carrera": "Ingenieria electrica"
+  },
+  {
+    "Id": 11,
+    "Nombre": "Ana",
+    "Carnet": "2005-1234U",
+    "Carrera": "Medicina"
+  },
+  {
+    "Id": 12,
+    "Nombre": "Luis",
+    "Carnet": "2018-5678U",
+    "Carrera": "Derecho"
+  },
+  {
+    "Id": 13,
+    "Nombre": "Laura",
+    "Carnet": "2019-9876U",
+    "Carrera": "Psicolog\u00EDa"
+  },
+  {
+    "Id": 14,
+    "Nombre": "Sergio",
+    "Carnet": "2014-4321U",
+    "Carrera": "Arquitectura"
+  },
+  {
+    "Id": 15,
+    "Nombre": "Elena",
+    "Carnet": "2002-3456U",
+    "Carrera": "Ingenier\u00EDa en Inform\u00E1tica"
+  },
+  {
+    "Id": 16,
+    "Nombre": "Isabel",
+    "Carnet": "2017-8765U",
+    "Carrera": "Biolog\u00EDa"
+  },
+  {
+    "Id": 17,
+    "Nombre": "Carlos",
+    "Carnet": "2019-5432U",
+    "Carrera": "Ingenier\u00EDa Qu\u00EDmica"
+  },
+  {
+    "Id": 18,
+    "Nombre": "Marta",
+    "Carnet": "2018-2345U",
+    "Carrera": "Arquitectura"
+  },
+  {
+    "Id": 19,
+    "Nombre": "Javier",
+    "Carnet": "2020-6789U",
+    "Carrera": "Medicina"
+  },
+  {
+    "Id": 20,
+    "Nombre": "Silvia",
+    "Carnet": "2015-9876U",
+    "Carrera": "Psicolog\u00EDa"
+  },
+  {
+    "Id": 21,
+    "Nombre": "Roberto",
+    "Carnet": "2016-4321U",
+    "Carrera": "Ingenier\u00EDa El\u00E9ctrica"
+  },
+  {
+    "Id": 22,
+    "Nombre": "Julia",
+    "Carnet": "2017-9876U",
+    "Carrera": "Arquitectura"
+  },
+  {
+    "Id": 23,
+    "Nombre": "Sandra",
+    "Carnet": "2019-2345U",
+    "Carrera": "Ingenier\u00EDa en Computaci\u00F3n"
+  },
+  {
+    "Id": 24,
+    "Nombre": "Andr\u00E9s",
+    "Carnet": "2020-3456U",
+    "Carrera": "Medicina"
+  },
+  {
+    "Id": 25,
+    "Nombre": "Gustavo",
+    "Carnet": "2018-8765U",
+    "Carrera": "Psicolog\u00EDa"
+  },
+  {
+    "Id": 26,
+    "Nombre": "Lorena",
+    "Carnet": "2015-5432U",
+    "Carrera": "Biolog\u00EDa"
+  },
+  {
+    "Id": 27,
+    "Nombre": "Marcelo",
+    "Carnet": "2016-1234U",
+    "Carrera": "Derecho"
+  },
+  {
+    "Id": 28,
+    "Nombre": "Paula",
+    "Carnet": "2017-6789U",
+    "Carrera": "Administraci\u00F3n de Empresas"
+  },
+  {
+    "Id": 29,
+    "Nombre": "Ana Mar\u00EDa",
+    "Carnet": "2018-9876U",
+    "Carrera": "Ingl\u00E9s"
+  },
+  {
+    "Id": 30,
+    "Nombre": "Hugo",
+    "Carnet": "2019-2345U",
+    "Carrera": "Ingenier\u00EDa Agr\u00EDcola"
   }
 ]
