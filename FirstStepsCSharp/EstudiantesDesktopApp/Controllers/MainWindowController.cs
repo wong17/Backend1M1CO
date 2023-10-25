@@ -40,6 +40,7 @@ namespace EstudiantesDesktopApp.Controllers
             {
                 Header = "ID",
                 Width = 30,
+                IsReadOnly = true,
                 Binding = new Binding("Id")
             };
 
@@ -47,6 +48,7 @@ namespace EstudiantesDesktopApp.Controllers
             {
                 Header = "Nombre",
                 Width = 200,
+                IsReadOnly = true,
                 Binding = new Binding("Nombre")
             };
 
@@ -54,6 +56,7 @@ namespace EstudiantesDesktopApp.Controllers
             {
                 Header = "Carnet",
                 Width = 100,
+                IsReadOnly = true,
                 Binding = new Binding("Carnet")
             };
 
@@ -61,6 +64,7 @@ namespace EstudiantesDesktopApp.Controllers
             {
                 Header = "Carrera",
                 Width = 256,
+                IsReadOnly = true,
                 Binding = new Binding("Carrera")
             };
 

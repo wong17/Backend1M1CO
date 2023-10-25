@@ -91,6 +91,9 @@ namespace EstudiantesWebAPI.Controllers
             if (value.Id <= 0)
                 return BadRequest("Error ID de Estudiante no puede ser menor o igual a cero.");
 
+            if (string.IsNullOrEmpty(value.Nombre) || string.IsNullOrEmpty(value.Carrera) || string.IsNullOrEmpty(value.Carnet))
+                return BadRequest("Nombre, carrera y carnet son campos obligatorios.");
+
             var response = await _estudianteBll.Update(value);
             if (!response.IsSuccess)
                 return NotFound("No se encontro un Estudiante con el ID ingresado.");

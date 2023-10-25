@@ -8,10 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Clase1\EstudiantesWebAPI\EstudiantesWebAPI.csproj" />
     <ProjectReference Include="..\Estudiantes.Common\Estudiantes.Common.csproj" />
   </ItemGroup>

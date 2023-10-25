@@ -175,8 +175,20 @@
   },
   {
     "Id": 30,
-    "Nombre": "Hugo",
-    "Carnet": "2019-2345U",
-    "Carrera": "Ingenier\u00EDa Agr\u00EDcola"
+    "Nombre": "Garrincha",
+    "Carnet": "1958-4567U",
+    "Carrera": "Ingenieria industrial"
+  },
+  {
+    "Id": 31,
+    "Nombre": "Justin",
+    "Carnet": "2020-1223I",
+    "Carrera": "Ingenieria en Computaci\u00F3n"
+  },
+  {
+    "Id": 32,
+    "Nombre": "Felipe",
+    "Carnet": "2070-0917U",
+    "Carrera": "Ingenieria Civil"
   }
 ]
