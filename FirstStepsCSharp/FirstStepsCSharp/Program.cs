@@ -4,6 +4,7 @@ using FirstStepsCSharp.Basic.BasicCSharp;
 using FirstStepsCSharp.POO.ClassesAndObjects;
 using FirstStepsCSharp.POO.Encapsulation.AccessModifiers;
 using FirstStepsCSharp.POO.Encapsulation.GettersAndSetters;
+using FirstStepsCSharp.POO.StaticKeyword.StaticMethods;
 
 /* -------------------- COMENTA/REMUEVE COMENTARIO PARA EJECUTAR EL EJEMPLO DESEADO. -------------------- */
 
@@ -67,3 +68,6 @@ PersonMain.Main(args);
 
 // Invocamos el método main de la clase PersonGetterSetterMain del paquete POO.Encapsulation.GettersAndSetters
 PersonGetterSetterMain.Main(args);
+
+// Invocamos el método main de la clase StaticMyMathClass del paquete POO.StaticKeyword.StaticMethods
+StaticMyMathClass.main(args);

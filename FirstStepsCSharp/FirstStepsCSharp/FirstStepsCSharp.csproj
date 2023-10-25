@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="POO\StaticKeyword\StaticClassWithStaticMethods\" />
+    <Folder Include="POO\StaticKeyword\StaticFields\" />
+  </ItemGroup>
+
 </Project>
