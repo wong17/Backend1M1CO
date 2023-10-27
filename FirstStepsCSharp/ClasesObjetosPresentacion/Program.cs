@@ -1,4 +1,5 @@
-﻿using ClasesObjetosPresentacion.ModificadoresDeAcceso.EjemploAmbosModificadores;
+﻿using ClasesObjetosPresentacion.MetodosGettersSetters;
+using ClasesObjetosPresentacion.ModificadoresDeAcceso.EjemploAmbosModificadores;
 using ClasesObjetosPresentacion.ModificadoresDeAcceso.EjemploAtributosPrivados;
 using ClasesObjetosPresentacion.ModificadoresDeAcceso.EjemploAtributosPublicos;
 
@@ -15,6 +16,13 @@ StudentMain.Main(args);
 VideogameMain.Main(args);
 
 /* MAIN DE LOS EJEMPLOS DE AMBOS MODIFICADORES DE ACCESO */
-Console.WriteLine("----------------------------- EJEMPLO EJEMPLOS DE AMBOS MODIFICADORES DE ACCESO -----------------------------\n");
+Console.WriteLine("----------------------------- EJEMPLO DE AMBOS MODIFICADORES DE ACCESO -----------------------------\n");
 Person.Main(args);
 PersonMain.Main(args);
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/* MAIN DE LOS EJEMPLOS DE METODOS GETTERS Y SETTERS */
+EmpleadoMain.Main(args);
+EmployeeMain.Main(args);
+CustomerMain.Main(args);
