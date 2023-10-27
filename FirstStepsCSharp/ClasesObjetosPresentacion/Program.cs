@@ -1,4 +1,5 @@
-﻿using ClasesObjetosPresentacion.ModificadoresDeAcceso.EjemploAtributosPrivados;
+﻿using ClasesObjetosPresentacion.ModificadoresDeAcceso.EjemploAmbosModificadores;
+using ClasesObjetosPresentacion.ModificadoresDeAcceso.EjemploAtributosPrivados;
 using ClasesObjetosPresentacion.ModificadoresDeAcceso.EjemploAtributosPublicos;
 
 /* MAIN DE LOS EJEMPLOS DE ATRIBUTOS PRIVADOS */
@@ -14,3 +15,6 @@ StudentMain.Main(args);
 VideogameMain.Main(args);
 
 /* MAIN DE LOS EJEMPLOS DE AMBOS MODIFICADORES DE ACCESO */
+Console.WriteLine("----------------------------- EJEMPLO EJEMPLOS DE AMBOS MODIFICADORES DE ACCESO -----------------------------\n");
+Person.Main(args);
+PersonMain.Main(args);
