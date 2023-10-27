@@ -5,19 +5,25 @@ VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstStepsCSharp", "FirstStepsCSharp\FirstStepsCSharp.csproj", "{72772F41-A924-4D09-B941-B16D8AA56277}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clase1", "Clase1", "{C35BD7EB-5197-443F-9258-E923702B1671}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clase_1", "Clase_1", "{C35BD7EB-5197-443F-9258-E923702B1671}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudiantesWebAPI", "Clase1\EstudiantesWebAPI\EstudiantesWebAPI.csproj", "{72741BBA-D9E1-4C7C-BEE5-475361697B6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudiantesWebAPI", "Clase_1\EstudiantesWebAPI\EstudiantesWebAPI.csproj", "{72741BBA-D9E1-4C7C-BEE5-475361697B6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudiantesDesktopApp", "EstudiantesDesktopApp\EstudiantesDesktopApp.csproj", "{4B634E3D-E22D-44F7-B784-811FC190693C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstudiantesDesktopApp", "Clase_1\EstudiantesDesktopApp\EstudiantesDesktopApp.csproj", "{4B634E3D-E22D-44F7-B784-811FC190693C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudiantes.Entities", "Estudiantes.Entities\Estudiantes.Entities.csproj", "{0BD15E6B-2E99-42A1-BA35-523ADDB314EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estudiantes.Entities", "Clase_1\Estudiantes.Entities\Estudiantes.Entities.csproj", "{0BD15E6B-2E99-42A1-BA35-523ADDB314EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudiantes.Common", "Estudiantes.Common\Estudiantes.Common.csproj", "{BDEDAC7E-05D3-4048-AF17-EB548A547A42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estudiantes.Common", "Clase_1\Estudiantes.Common\Estudiantes.Common.csproj", "{BDEDAC7E-05D3-4048-AF17-EB548A547A42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudiantes.Bll", "Estudiantes.Bll\Estudiantes.Bll.csproj", "{E2C8150B-BEC8-4020-AE97-F7E2B2DE7B14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estudiantes.Bll", "Clase_1\Estudiantes.Bll\Estudiantes.Bll.csproj", "{E2C8150B-BEC8-4020-AE97-F7E2B2DE7B14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudiantes.Dal", "Estudiantes.Dal\Estudiantes.Dal.csproj", "{921DCA52-FAED-47BC-BDF1-415673ACDC05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estudiantes.Dal", "Clase_1\Estudiantes.Dal\Estudiantes.Dal.csproj", "{921DCA52-FAED-47BC-BDF1-415673ACDC05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clase_2", "Clase_2", "{1FE1A75C-67F8-4DAA-A900-5F549142DA92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenWeatherMapDemo", "Clase_2\OpenWeatherMapDemo\OpenWeatherMapDemo.csproj", "{C3AA3640-855E-4E1C-BEBF-45602922311F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesObjetosPresentacion", "ClasesObjetosPresentacion\ClasesObjetosPresentacion.csproj", "{AC697A4C-F7D1-4AD3-B591-9B21E8934BAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +59,14 @@ Global
 		{921DCA52-FAED-47BC-BDF1-415673ACDC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{921DCA52-FAED-47BC-BDF1-415673ACDC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{921DCA52-FAED-47BC-BDF1-415673ACDC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3AA3640-855E-4E1C-BEBF-45602922311F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3AA3640-855E-4E1C-BEBF-45602922311F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3AA3640-855E-4E1C-BEBF-45602922311F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3AA3640-855E-4E1C-BEBF-45602922311F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC697A4C-F7D1-4AD3-B591-9B21E8934BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC697A4C-F7D1-4AD3-B591-9B21E8934BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC697A4C-F7D1-4AD3-B591-9B21E8934BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC697A4C-F7D1-4AD3-B591-9B21E8934BAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +78,8 @@ Global
 		{BDEDAC7E-05D3-4048-AF17-EB548A547A42} = {C35BD7EB-5197-443F-9258-E923702B1671}
 		{E2C8150B-BEC8-4020-AE97-F7E2B2DE7B14} = {C35BD7EB-5197-443F-9258-E923702B1671}
 		{921DCA52-FAED-47BC-BDF1-415673ACDC05} = {C35BD7EB-5197-443F-9258-E923702B1671}
+		{C3AA3640-855E-4E1C-BEBF-45602922311F} = {1FE1A75C-67F8-4DAA-A900-5F549142DA92}
+		{AC697A4C-F7D1-4AD3-B591-9B21E8934BAB} = {1FE1A75C-67F8-4DAA-A900-5F549142DA92}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4AEE7CD2-0397-47DB-AD5E-A30B69361311}

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Estudiantes.Common\Estudiantes.Common.csproj" />
+    <ProjectReference Include="..\Estudiantes.Entities\Estudiantes.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
