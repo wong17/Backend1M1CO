@@ -10,6 +10,8 @@ if (cities is null)
     Environment.Exit(1);
 }
 /* Si se obtuvieron correctamente, mostrar para que el usuario seleccione */
+Console.WriteLine("------------------------------ OpenWeatherMap API Demostración ------------------------------\n");
+Console.WriteLine("Departamentos/ciudades Nicaragua: \n\n");
 int i = 0;
 foreach (var city in cities)
 {
@@ -27,5 +29,6 @@ if (response is null)
     Environment.Exit(1);
 }
 /* Si todo salio correctamente */
-Console.WriteLine($"\n---------- CLIMA ACTUAL - {cities.ElementAt(option - 1).name} ----------");
+Console.WriteLine($"\n------------------------------ CLIMA ACTUAL - {cities.ElementAt(option - 1).name} ------------------------------");
 response.PrintAttributes();
+Console.WriteLine($"\n------------------------------ OpenWeatherMap API ------------------------------");
