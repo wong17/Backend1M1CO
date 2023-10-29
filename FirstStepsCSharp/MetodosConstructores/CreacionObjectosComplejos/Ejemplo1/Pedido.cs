@@ -22,7 +22,7 @@ namespace MetodosConstructoresHerencia.CreacionObjectosComplejos.Ejemplo1
         /* Muestra la información del Pedido */
         public void MostrarPedido()
         {
-            /* Por comodidad convertimos el objeto a formato JSON y lo mostramos por consola */
+            /* Por legibilidad convertimos el objeto a formato JSON y lo mostramos por consola */
             JsonSerializerOptions options = new()
             {
                 WriteIndented = true,

@@ -1,6 +1,6 @@
 ﻿namespace MetodosConstructoresHerencia.CreacionObjectosComplejos.Ejemplo1
 {
-    public class PedidosMain
+    public class PedidoMain
     {
         public static void Main()
         {
