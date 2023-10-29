@@ -3,6 +3,7 @@ using MetodosConstructores.Constructores.CreacionDeConstructor;
 using MetodosConstructores.Constructores.SobrecargaDeConstructores;
 using MetodosConstructores.MetodosAtributosStatic.Atributos;
 using MetodosConstructores.MetodosAtributosStatic.Metodos;
+using MetodosConstructoresHerencia.CreacionObjectosComplejos.Ejemplo1;
 
 Console.WriteLine("----------------------------- CONSTRUCTORES POR DEFECTO -----------------------------");
 ConstructorPorDefectoMain.Main();
@@ -12,6 +13,10 @@ CreacionDeConstructorMain.Main();
 
 Console.WriteLine("----------------------------- SOBRECARGA DE CONSTRUCTORES -----------------------------");
 SobrecargaDeConstructoresMain.Main();
+
+
+Console.WriteLine("----------------------------- CREACION DE OBJETOS COMPLEJOS -----------------------------");
+PedidosMain.Main();
 
 
 Console.WriteLine("----------------------------- METODOS STATIC -----------------------------");
