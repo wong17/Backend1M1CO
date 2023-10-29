@@ -9,6 +9,7 @@ using MetodosConstructoresHerencia.CreacionObjectosComplejos.Ejemplo3;
 using MetodosConstructoresHerencia.Herencia.Ejemplo1;
 using MetodosConstructoresHerencia.Herencia.Ejemplo2;
 using MetodosConstructoresHerencia.Herencia.Ejemplo3;
+using MetodosConstructoresHerencia.MetodosAtributosStatic.Clases;
 
 // 1. Métodos constructores
 Console.WriteLine("----------------------------- CONSTRUCTORES POR DEFECTO -----------------------------");
@@ -21,20 +22,23 @@ Console.WriteLine("----------------------------- SOBRECARGA DE CONSTRUCTORES ---
 SobrecargaDeConstructoresMain.Main();
 
 // 2. Creación de objetos que dependen de otros objetos
-Console.WriteLine("----------------------------- CREACION DE OBJETOS COMPLEJOS -----------------------------");
+Console.WriteLine("----------------------------- CREACION DE OBJETOS COMPLEJOS ---------------------------");
 PedidoMain.Main();
 BibliotecaMain.Main();
 UniversidadMain.Main();
 
 // 3. Métodos y atributos static
-Console.WriteLine("----------------------------- METODOS STATIC -----------------------------");
+Console.WriteLine("----------------------------- METODOS STATIC -------------------------------------------");
 MetodoStaticMain.Main();
 
-Console.WriteLine("----------------------------- ATRIBUTOS STATIC -----------------------------");
+Console.WriteLine("----------------------------- ATRIBUTOS STATIC -----------------------------------------");
 AtributosStaticMain.Main();
 
+Console.WriteLine("----------------------------- CLASES STATIC --------------------------------------------");
+ClasesStaticMain.Main();
+
 // 4. Herencia
-Console.WriteLine("----------------------------- HERENCIA -----------------------------");
+Console.WriteLine("----------------------------- HERENCIA -------------------------------------------------");
 AnimalMain.Main();
 AnimalConConstructorMain.Main();
 ComputadoraMain.Main();
