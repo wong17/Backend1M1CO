@@ -1,7 +1,7 @@
 ﻿using Estudiantes.Bll.Implementations;
 using Estudiantes.Bll.Interfaces;
+using Estudiantes.Bll.Mapping;
 using Estudiantes.Dal.Configurations;
-using Estudiantes.Mapping;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Estudiantes.Bll.Configurations

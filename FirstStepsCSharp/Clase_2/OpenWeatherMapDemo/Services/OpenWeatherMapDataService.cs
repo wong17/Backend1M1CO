@@ -1,5 +1,4 @@
 ﻿using OpenWeatherMapDemo.ApiConnection;
-using OpenWeatherMapDemo.Model;
 using OpenWeatherMapDemo.Models;
 using OpenWeatherMapDemo.Util;
 using System.Net.Http.Json;

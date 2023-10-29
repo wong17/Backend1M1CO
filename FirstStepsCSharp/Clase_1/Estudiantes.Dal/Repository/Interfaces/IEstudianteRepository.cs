@@ -1,6 +1,6 @@
-﻿using EstudiantesDesktopApp.Entities.Models;
+﻿using Estudiantes.Entities.Models;
 
-namespace EstudiantesWebAPI.Dal.Repository.Interfaces
+namespace Estudiantes.Dal.Repository.Interfaces
 {
     public interface IEstudianteRepository : IRepository<Estudiante>
     {

@@ -1,6 +1,6 @@
-﻿using EstudiantesDesktopApp.ApiConnection;
-using EstudiantesDesktopApp.Entities.Models;
-using EstudiantesWebAPI.Common.Runtime;
+﻿using Estudiantes.Common.Runtime;
+using Estudiantes.Entities.Models;
+using EstudiantesDesktopApp.ApiConnection;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;

@@ -1,6 +1,6 @@
-﻿using EstudiantesWebAPI.Common.Runtime;
+﻿using Estudiantes.Common.Runtime;
 
-namespace EstudiantesWebAPI.Dal.Repository.Interfaces
+namespace Estudiantes.Dal.Repository.Interfaces
 {
     public interface IRepository<in T> where T : class
     {

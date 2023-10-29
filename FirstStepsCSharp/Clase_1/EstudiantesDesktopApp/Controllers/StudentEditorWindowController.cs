@@ -1,7 +1,7 @@
-﻿using EstudiantesDesktopApp.Entities.Models;
+﻿using Estudiantes.Common.Runtime;
+using Estudiantes.Entities.Models;
 using EstudiantesDesktopApp.Services;
 using EstudiantesDesktopApp.Views;
-using EstudiantesWebAPI.Common.Runtime;
 using System;
 using System.Windows;
 using System.Windows.Controls;

@@ -1,4 +1,4 @@
-﻿using EstudiantesDesktopApp.Entities.Models;
+﻿using Estudiantes.Entities.Models;
 using EstudiantesDesktopApp.Services;
 using EstudiantesDesktopApp.Views;
 using System.Collections.Generic;

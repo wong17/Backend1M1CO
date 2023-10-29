@@ -1,6 +1,4 @@
-﻿using OpenWeatherMapDemo.Model;
-
-namespace OpenWeatherMapDemo.Models
+﻿namespace OpenWeatherMapDemo.Models
 {
     public class City
     {

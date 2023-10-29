@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace EstudiantesDesktopApp.Entities.Models
+namespace Estudiantes.Entities.Models
 {
     public class Estudiante
     {

@@ -1,11 +1,11 @@
-﻿using Estudiantes.Dal.Core;
-using EstudiantesDesktopApp.Entities.Models;
-using EstudiantesWebAPI.Common.Runtime;
-using EstudiantesWebAPI.Dal.Repository.Interfaces;
+﻿using Estudiantes.Common.Runtime;
+using Estudiantes.Dal.Core;
+using Estudiantes.Dal.Repository.Interfaces;
+using Estudiantes.Entities.Models;
 using Microsoft.Extensions.Configuration;
 using System.Net;
 
-namespace EstudiantesWebAPI.Dal.Repository.Implementations
+namespace Estudiantes.Dal.Repository.Implementations
 {
     /* Este código es a modo de ejemplo, habria que realizar mas validaciones y cambiar la forma en la
      * que se estan haciendo unas cosas pero para la demostración nos sirve. */
@@ -26,7 +26,7 @@ namespace EstudiantesWebAPI.Dal.Repository.Implementations
         {
             var students = await _fileIO.Load<List<Estudiante>?>(_filePath);
             /* Si la ruta del archivo no existe */
-            if (students is null) 
+            if (students is null)
             {
                 var apiResponse = new APIResponse()
                 {
@@ -42,7 +42,8 @@ namespace EstudiantesWebAPI.Dal.Repository.Implementations
             students.Add(entity);
             /* Sino se pudo guardar en el archivo */
             var response = _fileIO.Save(_filePath, students);
-            if (!response.Result) {
+            if (!response.Result)
+            {
                 var apiResponse = new APIResponse()
                 {
                     IsSuccess = false,
@@ -169,7 +170,10 @@ namespace EstudiantesWebAPI.Dal.Repository.Implementations
                 return apiResponse;
             }
             /* Si todo salio bien */
-            return new APIResponse() { StatusCode = HttpStatusCode.OK, IsSuccess = true,
+            return new APIResponse()
+            {
+                StatusCode = HttpStatusCode.OK,
+                IsSuccess = true,
                 Message = $"Estudiante con ID:{entity.Id} actualizado exitosamente. ",
                 Result = entity.Id
             };

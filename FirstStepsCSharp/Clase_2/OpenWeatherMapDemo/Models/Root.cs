@@ -1,7 +1,7 @@
 ﻿using System.Text.Json.Serialization;
 using System.Text.Json;
 
-namespace OpenWeatherMapDemo.Model
+namespace OpenWeatherMapDemo.Models
 {
     public class Root
     {

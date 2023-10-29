@@ -1,4 +1,4 @@
-﻿namespace OpenWeatherMapDemo.Model
+﻿namespace OpenWeatherMapDemo.Models
 {
     public class Weather
     {

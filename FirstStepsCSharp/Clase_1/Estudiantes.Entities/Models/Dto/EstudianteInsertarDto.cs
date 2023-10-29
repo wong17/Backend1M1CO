@@ -1,4 +1,4 @@
-﻿namespace EstudiantesWebAPI.Entities.Models.Dto
+﻿namespace Estudiantes.Entities.Models.Dto
 {
     public class EstudianteInsertarDto
     {

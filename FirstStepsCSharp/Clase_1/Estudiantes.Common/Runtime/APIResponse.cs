@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace EstudiantesWebAPI.Common.Runtime
+namespace Estudiantes.Common.Runtime
 {
     /* Para que todos los endpoints retornen el mismo tipo de respuesta */
     public class APIResponse

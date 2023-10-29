@@ -1,7 +1,7 @@
 ﻿using Estudiantes.Bll.Interfaces;
-using EstudiantesDesktopApp.Entities.Models;
-using EstudiantesWebAPI.Common.Runtime;
-using EstudiantesWebAPI.Dal.Repository.Interfaces;
+using Estudiantes.Common.Runtime;
+using Estudiantes.Dal.Repository.Interfaces;
+using Estudiantes.Entities.Models;
 
 namespace Estudiantes.Bll.Implementations
 {

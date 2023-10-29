@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using EstudiantesDesktopApp.Entities.Models;
-using EstudiantesWebAPI.Entities.Models.Dto;
+using Estudiantes.Entities.Models;
+using Estudiantes.Entities.Models.Dto;
 
-namespace Estudiantes.Mapping
+namespace Estudiantes.Bll.Mapping
 {
     public class AutoMapperProfile : Profile
     {

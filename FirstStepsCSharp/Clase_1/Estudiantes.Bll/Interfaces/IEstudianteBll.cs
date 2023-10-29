@@ -1,5 +1,5 @@
-﻿using EstudiantesDesktopApp.Entities.Models;
-using EstudiantesWebAPI.Common.Runtime;
+﻿using Estudiantes.Common.Runtime;
+using Estudiantes.Entities.Models;
 
 namespace Estudiantes.Bll.Interfaces
 {

@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using Estudiantes.Bll.Interfaces;
-using EstudiantesDesktopApp.Entities.Models;
-using EstudiantesWebAPI.Common.Runtime;
-using EstudiantesWebAPI.Entities.Models.Dto;
+using Estudiantes.Common.Runtime;
+using Estudiantes.Entities.Models;
+using Estudiantes.Entities.Models.Dto;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EstudiantesWebAPI.Controllers

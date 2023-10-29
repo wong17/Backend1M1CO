@@ -1,6 +1,6 @@
 ﻿using Estudiantes.Dal.Core;
-using EstudiantesWebAPI.Dal.Repository.Implementations;
-using EstudiantesWebAPI.Dal.Repository.Interfaces;
+using Estudiantes.Dal.Repository.Implementations;
+using Estudiantes.Dal.Repository.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Estudiantes.Dal.Configurations
