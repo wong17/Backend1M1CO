@@ -4,6 +4,7 @@
     {
         public static void Main()
         {
+            Console.WriteLine("\n---------------------------------------- BibliotecaMain ----------------------------------------");
             /* 
              * Para crear un objeto de tipo Biblioteca necesitamos primero crear varios objetos de tipo Libro
              * y su vez para crear un objeto de tipo Libro necesitamos la información de uno o varios Autores, 

@@ -4,13 +4,12 @@
     {
         public static void Main()
         {
+            Console.WriteLine("\n---------------------------------------- PedidoMain ----------------------------------------");
             /* 
              * Para crear un Pedido necesitamos la información del Cliente y la lista de Productos
              * que desea el Cliente, el objeto Pedido depende de otros objetos, primero vamos a crear
              * esos otros objetos para finalmente poder crear un Pedido.
              */
-
-            #region PedidoEjemplo1
 
             // Crear objeto Cliente
             Cliente cliente = new()
@@ -71,8 +70,6 @@
 
             // Mostrar información del Pedido
             pedido.MostrarPedido();
-
-            #endregion
 
         }
     }
