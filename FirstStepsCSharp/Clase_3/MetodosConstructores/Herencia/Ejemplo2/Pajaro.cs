@@ -2,7 +2,8 @@
 {
     /* 
      * CLASE HIJA que hereda de la CLASE PADRE Animal 
-     * - Para llevar a cabo la Herencia utilizamos el operador ':' seguido del nombre de la clase
+     * - Para llevar a cabo la Herencia utilizamos el 
+     *   operador ':' seguido del nombre de la clase
      *   de la cual queremos heredar
      */
     public class Pajaro : Animal

@@ -16,9 +16,25 @@
             this.disponible = disponible;
         }
         /* Propiedades que nos sirven de getter y setters */
-        public string? Titulo { get => titulo; set => titulo = value; }
-        public Autor[]? Autor { get => autor; set => autor = value; }
-        public int AnioPublicacion { get => anioPublicacion; set => anioPublicacion = value; }
-        public bool Disponible { get => disponible; set => disponible = value; }
+        public string? Titulo 
+        { 
+            get => titulo; 
+            set => titulo = value; 
+        }
+        public Autor[]? Autor 
+        { 
+            get => autor; 
+            set => autor = value; 
+        }
+        public int AnioPublicacion 
+        { 
+            get => anioPublicacion; 
+            set => anioPublicacion = value; 
+        }
+        public bool Disponible 
+        { 
+            get => disponible; 
+            set => disponible = value; 
+        }
     }
 }

@@ -19,7 +19,7 @@
              * ningun uso ya que los objetos no tienen métodos ni atributos 
              */
             Calculadora calculadora = new(); // No tiene uso este objeto
-
+            
 
             Console.WriteLine("------------------------------ CALCULADORA ------------------------------");
             Console.WriteLine($"Suma: {suma}");

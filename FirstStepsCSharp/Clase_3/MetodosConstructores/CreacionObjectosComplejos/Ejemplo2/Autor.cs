@@ -14,8 +14,20 @@
             this.nacionalidad = nacionalidad;
         }
         /* Propiedades que nos sirven de getter y setters */
-        public string? Nombre { get => nombre; set => nombre = value; }
-        public DateTime FechaNacimiento { get => fechaNacimiento; set => fechaNacimiento = value; }
-        public string? Nacionalidad { get => nacionalidad; set => nacionalidad = value; }
+        public string? Nombre 
+        { 
+            get => nombre; 
+            set => nombre = value; 
+        }
+        public DateTime FechaNacimiento 
+        { 
+            get => fechaNacimiento; 
+            set => fechaNacimiento = value; 
+        }
+        public string? Nacionalidad 
+        { 
+            get => nacionalidad; 
+            set => nacionalidad = value; 
+        }
     }
 }

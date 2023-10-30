@@ -8,7 +8,11 @@ namespace MetodosConstructoresHerencia.CreacionObjectosComplejos.Ejemplo2
         /* Atributo de la clase Biblioteca */
         private Libro[]? libros;
         /* Propiedad para obtener y dar valor al atributo Libros */
-        public Libro[]? Libros { get => libros; set => libros = value; }
+        public Libro[]? Libros 
+        { 
+            get => libros; 
+            set => libros = value; 
+        }
         /* Constructor de la clase Biblioteca para crear el objeto con los libros de una vez */
         public Biblioteca(Libro[]? libros)
         {

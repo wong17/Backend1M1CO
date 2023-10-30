@@ -10,7 +10,7 @@
         private string? descripcion;
         private string? categoria;
 
-        /* Constructor que recibe por parámetro todos lso atributos de la clase Producto */
+        /* Constructor que recibe por parámetro todos los atributos de la clase Producto */
         public Producto(int codigo, string? nombre, double precio, int cantidadEnStock, string? descripcion, string? categoria)
         {
             this.codigo = codigo;
