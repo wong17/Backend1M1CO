@@ -25,13 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenWeatherMapDemo", "Clase
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasesObjetosPresentacion", "Clase_2\ClasesObjetosPresentacion\ClasesObjetosPresentacion.csproj", "{AC697A4C-F7D1-4AD3-B591-9B21E8934BAB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class_3", "Class_3", "{506A29D9-3CAE-4FC2-BF0A-BD7BFD35CDC5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clase_3", "Clase_3", "{506A29D9-3CAE-4FC2-BF0A-BD7BFD35CDC5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetodosConstructoresHerencia", "Clase_3\MetodosConstructores\MetodosConstructoresHerencia.csproj", "{41D29302-B2BE-4909-908E-A4C3A1DB4025}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clase_4", "Clase_4", "{C2BC06C7-313E-499D-905B-AE6A2574C4C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolimorfismoInterfaces", "PolimorfismoInterfaces\PolimorfismoInterfaces.csproj", "{E935E246-6C67-4C04-B560-5932F23005D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolimorfismoInterfaces", "PolimorfismoInterfaces\PolimorfismoInterfaces.csproj", "{E935E246-6C67-4C04-B560-5932F23005D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

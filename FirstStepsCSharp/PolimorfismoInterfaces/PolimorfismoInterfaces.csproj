@@ -10,8 +10,6 @@
   <ItemGroup>
     <Folder Include="ClasesAbstractas\" />
     <Folder Include="Interfaces\" />
-    <Folder Include="Herencia\" />
-    <Folder Include="Polimorfismo\" />
   </ItemGroup>
 
 </Project>

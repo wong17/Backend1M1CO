@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using PolimorfismoInterfaces.Herencia.PolimorfismoClaseAbstracta;
+using PolimorfismoInterfaces.Herencia.SobrescribirMetodos;
+
+// Herencia -> Polimorfismo
+SobrescribirMain.Main();
+
+// Herencia -> Polimorfismo y clases abstracta
+PolimorfismoClaseAbstractaMain.Main();
