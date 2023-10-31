@@ -8,8 +8,8 @@
      */
     public abstract class Empleado
     {
-        /* Propiedad que solo es accesible por las clases que heredan de Empleado */
-        protected string? Nombre { get; set; }
+        /* Propiedad que heredan las clases hijas de Empleado */
+        public string? Nombre { get; set; }
         /* Método publico y abstracto que deben de implementar las clases que hereden de Empleado */
         public abstract void CalcularSalario();
         /* Método protegido y abstracto solo se podra utilizar dentro de cada una de las clases que hereden de Empleado */

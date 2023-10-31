@@ -7,9 +7,9 @@
             Console.WriteLine("\n---------------------------------------- Polimorfismo y Clase Abstracta ----------------------------------------");
 
             // Creación de objetos
-            Director director = new();
-            Gerente gerente = new();
-            Jefe jefe = new();
+            Director director = new() { Nombre = "Juan" };
+            Gerente gerente = new() { Nombre = "Maria" };
+            Jefe jefe = new() { Nombre = "Carlos" };
             // Invocación del método CalcularSalario
             director.CalcularSalario();
             gerente.CalcularSalario();

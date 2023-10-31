@@ -6,7 +6,7 @@
         /* Sobrescribir el método heredado */
         public override void CalcularSalario()
         {
-            Console.WriteLine("Calcula el salario de un Jefe");
+            Console.WriteLine($"Calcula el salario de Jefe/Jefa: {Nombre}");
             /* Se ejecutara después de llamar al método CalcularSalario() que es público. */
             NotificarCalculoSalario();
         }
