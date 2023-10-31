@@ -2,8 +2,9 @@
 {
     public class Circulo : FiguraGeometrica
     {
+        /* Propiedad */
         public double Radio { get; set; }
-
+        /* Constructor */
         public Circulo(double radio)
         {
             Radio = radio;

@@ -2,9 +2,10 @@
 {
     public class Rectangulo : FiguraGeometrica
     {
+        /* Propiedades */
         public double Largo { get; set; }
         public double Ancho { get; set; }
-
+        /* Constructor */
         public Rectangulo(double largo, double ancho)
         {
             Largo = largo;

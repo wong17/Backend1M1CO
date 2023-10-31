@@ -10,7 +10,7 @@
             Circulo circulo = new(5);
             Rectangulo rectangulo = new(4, 6);
             
-            /* Crear objetos de clases hijas utilizando el principio de sustitución */
+            /* Crear objetos de clases hijas, utilizando el principio de sustitución */
             FiguraGeometrica circulo2 = new Circulo(5);
             FiguraGeometrica rectangulo2 = new Rectangulo(4, 6);
             
