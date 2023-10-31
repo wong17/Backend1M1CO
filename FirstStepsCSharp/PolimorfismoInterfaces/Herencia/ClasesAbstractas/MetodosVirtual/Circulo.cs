@@ -1,4 +1,4 @@
-﻿namespace PolimorfismoInterfaces.Herencia.ClasesAbstractas
+﻿namespace PolimorfismoInterfaces.Herencia.ClasesAbstractas.MetodosVirtual
 {
     public class Circulo : FiguraGeometrica
     {
@@ -14,6 +14,8 @@
         {
             double area = Math.PI * Radio * Radio;
             Console.WriteLine($"Área del círculo: {area}");
+            /* Llamar implementación base del método de la clase abstracta */
+            NotificarCalculoTerminado();
         }
     }
 }

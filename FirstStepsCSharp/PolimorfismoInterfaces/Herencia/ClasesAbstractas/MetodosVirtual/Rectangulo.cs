@@ -1,4 +1,4 @@
-﻿namespace PolimorfismoInterfaces.Herencia.ClasesAbstractas
+﻿namespace PolimorfismoInterfaces.Herencia.ClasesAbstractas.MetodosVirtual
 {
     public class Rectangulo : FiguraGeometrica
     {
@@ -16,6 +16,8 @@
         {
             double area = Largo * Ancho;
             Console.WriteLine($"Área del rectángulo: {area}");
+            /* Llamar implementación base del método de la clase abstracta */
+            NotificarCalculoTerminado();
         }
     }
 }
