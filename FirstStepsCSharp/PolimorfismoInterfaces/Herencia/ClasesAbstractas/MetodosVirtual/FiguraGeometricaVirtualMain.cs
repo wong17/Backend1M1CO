@@ -17,7 +17,7 @@
             /* Invocar métodos */
             circulo.CalcularArea();
             circulo2.CalcularArea();
-
+            Console.WriteLine();
             rectangulo.CalcularArea();
             rectangulo2.CalcularArea();
         }

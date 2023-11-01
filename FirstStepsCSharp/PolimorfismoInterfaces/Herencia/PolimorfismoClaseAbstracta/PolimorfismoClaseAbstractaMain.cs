@@ -14,6 +14,7 @@
             director.CalcularSalario();
             gerente.CalcularSalario();
             jefe.CalcularSalario();
+            Console.WriteLine();
 
             // Arreglo de empleados, posible gracias al principio de sustitución
             Empleado[] empleados =
