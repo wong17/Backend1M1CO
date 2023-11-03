@@ -39,7 +39,7 @@
         public bool EsPlanetaExterior()
         {
             var unidades = distanciaSol / 149597870.0;
-            return unidades >= 2.1 && unidades <= 3.4;
+            return unidades > 3.4;
         }
 
         public string? Nombre => nombre;
